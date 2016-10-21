@@ -3,8 +3,9 @@
 <TITLE>Test Input</TITLE>
 <SCRIPT LANGUAGE="JavaScript">
 function testResults (form) {
-    var TestVar = form.year.value;
-    alert ("You typed: " + TestVar);
+    var year = form.year.value;
+    var model = form.model.value;
+    document.write("https://docs.google.com/spreadsheets/d/15oUTQLM_n8Qftr8woW9Tr4QaA7JrOOKxYWMfmLQdsGM/gviz/tq?tqx=out:html&tq=SELECT+" + year + "+WHERE+B+CONTAINS+%27" + model + "%27&gid=2");
 }
 </SCRIPT>
 </HEAD>
