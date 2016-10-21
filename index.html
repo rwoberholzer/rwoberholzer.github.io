@@ -5,7 +5,7 @@
 function testResults (form) {
     var year = form.year.value;
     var model = form.model.value;
-    document.getElementById("iframeDiv").innerHTML = ("<iframe src=\"https://docs.google.com/spreadsheets/d/15oUTQLM_n8Qftr8woW9Tr4QaA7JrOOKxYWMfmLQdsGM/gviz/tq?tqx=out:html&tq=SELECT+" + year + "+WHERE+B+CONTAINS+%27" + model + "%27&gid=2\"></iframe>");
+    document.getElementById("iframeDiv").innerHTML = ("<iframe src=\"https://docs.google.com/spreadsheets/d/15oUTQLM_n8Qftr8woW9Tr4QaA7JrOOKxYWMfmLQdsGM/gviz/tq?tqx=out:html&tq=SELECT+" + year + "+WHERE+B+CONTAINS+%27" + model + "%27&gid=2\" style=\"border:0; width:100px; height:50px;\"></iframe>");
 }
 </SCRIPT>
 </HEAD>
